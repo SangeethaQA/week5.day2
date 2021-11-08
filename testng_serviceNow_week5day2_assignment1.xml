@@ -1,0 +1,16 @@
+<suite name="Suite">
+<parameter name="url" value="https://dev69731.service-now.com/navpage.do"> </parameter>
+<parameter name="username" value="admin"> </parameter>
+<parameter name="password" value="Geetha@001"> </parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+ <!--   <class name="week5.day2.assignment1.ServiceNowCreation"/>
+     <class name="week5.day2.assignment1.UpdateIncident"/>
+             <class name="week5.day2.assignment1.AssignIncident"/>  -->
+      <class name="week5.day2.assignment1.DeleteIncident"/>
+ 
+  
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->

@@ -1,0 +1,16 @@
+
+<suite name="Suite">
+<parameter name="url" value="http://leaftaps.com/opentaps/"> </parameter>
+<parameter name="username" value="DemoSalesManager"> </parameter>
+<parameter name="password" value="crmsfa"> </parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+	<class name="week5.day2.assignment2.CreateLead" />
+	<class name="week5.day2.assignment2.EditLead" />
+	<class name="week5.day2.assignment2.DuplicateLead" />
+	<class name="week5.day2.assignment2.MergeLead"/>	
+	<class name="week5.day2.assignment2.DeleteLead" />
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
